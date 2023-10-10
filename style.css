@@ -1,0 +1,104 @@
+body	{
+	background-color: rgb(160, 221, 173);
+	color: #beige; 
+	font-family: helvetica, serif;
+	font-size: 18px;
+}
+
+h1, h2, h3 { 
+	font-family: Helvetica, sans-serif;
+ }
+
+h1 {
+	font-size: 32px;
+	color: darkgreen;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: lighter;
+	color: darkgreen;
+}
+
+a{
+	font-family: Helvetica Neue, sans-serif;
+	text-decoration: none;
+	color: #darkgreen;
+	font-weight: bold;
+}
+
+a:hover{
+	color:black;
+	font-weight: bold;
+
+}
+
+.btn_green{
+	background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin : 5px
+}
+
+.btn_green:hover{
+	background-color:black ;
+	color: white;
+}
+
+#img_circle {
+    width: 150px;
+    border-radius: 70%;
+    box-shadow: 5px 5px 20px rgba(0,0,0, 0.2);
+}
+
+
+#container{
+	width: 1000px;
+	margin: 40px auto;
+
+}
+
+.box{
+	background: floralwhite;
+	padding: 50px;
+	margin: 20px auto;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.list_inline{
+	list-style:none;
+	padding-left: 0px;
+}
+
+.list_inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list_inline i{ 
+	font-size: 60px;
+	color: rgb(230,230,230);
+ }
+
+.list_inline i:hover{ 
+	color: darkgreen; 
+ }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 3500px;
+  }
+}
